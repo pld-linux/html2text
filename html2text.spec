@@ -2,7 +2,7 @@ Summary:	A command line utility to convert HTML document to plain text
 Summary(pl):	Narzêdzie dzia³aj±ce z linii poleceñ do konwersji dokumentów HTML do czystego tekstu
 Name:		html2text
 Version:	1.3.2a
-Release:	1
+Release:	2
 URL:		http://userpage.fu-berlin.de/~mbayer/tools/html2text.html
 License:	GPL
 Source0:	http://userpage.fu-berlin.de/%7Embayer/tools/%{name}-%{version}.tar.gz
@@ -15,7 +15,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 html2text is a command line utility, written in C++, that converts
 HTML documents into plain text.
 
-%description
+%description -l pl
 html2text jest programem dzia³aj±cym z linii poleceñ do konwersji
 dokumentów HTML do czystego tekstu.
 
