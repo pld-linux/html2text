@@ -3,11 +3,11 @@ Summary(pl):	Narzêdzie dzia³aj±ce z linii poleceñ do konwersji dokumentów HTML d
 Name:		html2text
 Version:	1.3.2a
 Release:	2
-URL:		http://userpage.fu-berlin.de/~mbayer/tools/html2text.html
 License:	GPL
+Group:		Applications/Networking
 Source0:	http://userpage.fu-berlin.de/%7Embayer/tools/%{name}-%{version}.tar.gz
 # Source0-md5:	6097fe07b948e142315749e6620c9cfc
-Group:		Applications/Networking
+URL:		http://userpage.fu-berlin.de/~mbayer/tools/html2text.html
 BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
