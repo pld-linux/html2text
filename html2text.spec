@@ -24,7 +24,9 @@ dokumentów HTML do czystego tekstu.
 
 %build
 %configure
-%{__make}
+%{__make} \
+	CXX="%{__cxx}" \
+	DEBUG="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -38,6 +40,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc CHANGES CREDITS INSTALL KNOWN_BUGS RELEASE_NOTES README TODO
+%doc CHANGES CREDITS KNOWN_BUGS RELEASE_NOTES README TODO
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man?/*
