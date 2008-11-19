@@ -2,7 +2,7 @@ Summary:	A command line utility to convert HTML document to plain text
 Summary(pl.UTF-8):	Narzędzie działające z linii poleceń do konwersji dokumentów HTML do czystego tekstu
 Name:		html2text
 Version:	1.3.2a
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Networking
 Source0:	http://userpage.fu-berlin.de/%7Embayer/tools/%{name}-%{version}.tar.gz
