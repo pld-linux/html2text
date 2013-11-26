@@ -5,9 +5,9 @@ Version:	1.3.2a
 Release:	3
 License:	GPL
 Group:		Applications/Networking
-Source0:	http://userpage.fu-berlin.de/%7Embayer/tools/%{name}-%{version}.tar.gz
+Source0:	http://www.mbayer.de/html2text/downloads/%{name}-%{version}.tar.gz
 # Source0-md5:	6097fe07b948e142315749e6620c9cfc
-URL:		http://userpage.fu-berlin.de/~mbayer/tools/html2text.html
+URL:		http://www.mbayer.de/html2text/
 BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
